@@ -29,12 +29,15 @@ def vehicleResponseSystem():
     elif weatherAlert == "Foggy":
         print("\nNational Weather Service has updated your alarm by 25 minutes because of the forecast of", weatherAlert)
         print("Vehicle Response System has been engaged only allowing you to drive 45 MPH.")
-    elif weatherAlert == "Windy"
+    elif weatherAlert == "Windy":
         print("\nNational Weather Service has updated your alarm by 5 minutes because of the forecast of",weatherAlert)
         print("Vehicle response System has been engaged only allowing you to drive 65 MPH.")
     elif weatherAlert == "Icy":
         print("\nNational Weather Service has updated your alarm by 60 minutes because of the forecast of", weatherAlert)
-        prinnt("Vehicle Response System has been engaged only allowing you to drive 25 MPH.")
+        print("Vehicle Response System has been engaged only allowing you to drive 25 MPH.")
     elif weatherAlert == "Sunny":
-        print("\nThe weather forecast is calling for a", weatherAlert, )
-        VehicleResponseSystem():
+        print("\nThe weather forecast is calling for a", weatherAlert,"day. Enjoy your drive to work!")
+    else:
+        print("\nThe weather forecast is calling for a",weatherAlert,"day. Enjoy your drive to work!")
+
+vehicleResponseSystem()
